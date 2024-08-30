@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "blog"
+version = "0.1.0"
+description = "Personal blog made with Sanic, Jinja templates and Alpine.js"
+authors = ["atbuy <buy@atbuy.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
